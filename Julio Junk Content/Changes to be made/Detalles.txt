@@ -1,2 +1,21 @@
 TELEFONO: +1 (626) 341-3078
 INSTAGRAM: https://www.instagram.com/juliojunkr/
+
+Fallas:
+1. No tiene limites en los bordes, se mueve hacia los costados con espacios blancos, eso deberia restringirse.
+2. En la web al pasar el cursor por los servicios se puede visualizar la descripcion de cada servicio, pero en la
+version movil debido que lo haces con el dedo no muestra nada. nota: recomiendo que default se muestre el titulo del servicio y cuando se pase el cursor o el dedo
+se valla hacia arriba para mostrar la descripcion
+3. Tiene precargado un testimonio, eso hay que corregir
+
+Nuevo diseño
+1. Armar un nuevo design.md del nuevo diseño
+2. Generar home page con la misma estructura actual pero con el nuevo diseño. Nota: podriamos considerar generar todas las pantallas de nuevo con tal que lo hagas con las mismas secciones de la original, todo es mas cuestion de tipografia y paleta de colores, estructuralmente seria exactamente lo mismo
+3. Por cuestiones de tiempo, tambien lo que podemos hacer es hacer un design.md  del nuevo diseño y generar un nuevo prompt para que claude pueda hacer la reconstruccion de la pagina con el nuevo md siguiendo la misma estructua original.
+
+PARA FUTUROS PROYECTOS
+1. Aprender usar figma para componentes y variantes para reutilizar diseños, verlo de manera modular, desde cada seccion de una pagina, testimonials, reviews, hero,
+footer, navbar, about us, contact us.
+2. Separar por modelos de negocio: Financiero, healthcare, ecomerce, landing page, etc
+3. Esto nos sirve porque para este tipo de cambios en el que ya tenia un proyecto ya casi terminado y me piden cambiarle el diseño, ahora voy a stich creo una pantalla del nuevo diseño lo paso a figma, y partir de ahi, en base al nuevo diseño hago el footer, navbar, hero, y ese nuevo diseño se lo paso a claude para que 
+lea el nuevo design.md y las referencias de las pantallas pero nunca pedirle que las cree en base al codigo pre generado de figma porque viene con muchos erroes, solo que las tome como referencia de lo ya construido y asi este tipo de cambios no tomaran mas de 1 hora.
