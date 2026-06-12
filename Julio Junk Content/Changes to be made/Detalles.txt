@@ -1,6 +1,10 @@
 TELEFONO: +1 (626) 341-3078
 INSTAGRAM: https://www.instagram.com/juliojunkr/
 
+----------------------------------------------------------
+sesion 1 - (09/06/26)
+
+-------COMPLETADO-------
 Fallas:
 1. No tiene limites en los bordes, se mueve hacia los costados con espacios blancos, eso deberia restringirse.
 2. En la web al pasar el cursor por los servicios se puede visualizar la descripcion de cada servicio, pero en la
@@ -8,11 +12,32 @@ version movil debido que lo haces con el dedo no muestra nada. nota: recomiendo 
 se valla hacia arriba para mostrar la descripcion
 3. Tiene precargado un testimonio, eso hay que corregir
 
+-------COMPLETADO-------
 Nuevo diseño
 1. Armar un nuevo design.md del nuevo diseño
 2. Generar home page con la misma estructura actual pero con el nuevo diseño. Nota: podriamos considerar generar todas las pantallas de nuevo con tal que lo hagas con las mismas secciones de la original, todo es mas cuestion de tipografia y paleta de colores, estructuralmente seria exactamente lo mismo
 3. Por cuestiones de tiempo, tambien lo que podemos hacer es hacer un design.md  del nuevo diseño y generar un nuevo prompt para que claude pueda hacer la reconstruccion de la pagina con el nuevo md siguiendo la misma estructua original.
 
+--------------------------------------------------------------
+sesion 2 - (12/06/26)
+
+Observacion: Realizar un mock up rapido con claude del hero propuesto por Dayana, la cual fue aprobado por cliente y me hizo una imagen, me pregunto.. 
+por que no pudiste adaptarla?.. La verdad no le veia potencial a ese diseño, opte por una propuesta hibrida, entre lo que ya tenia y lo que ella propueso
+practicamente solo fui fiel a su navbar y banner propuesto, seguir manteniendo mi hero, se me ha ocurrido una idea que no esta de mas intentarlo 
+
+primera parte
+Adaptar la camioneta al hero como tiene, pero hacerle animacion, se carga la pagina, y no se... idea 1: se carga primero la camioneta y luego de 0.5 s
+se carga el desecho atras, como dos imagenes separadas. idea 2: se carga la imagen completa pero entra con transicion horizontal desde la izquierdad a su posicion
+real. 
+
+segunda parte
+hacemos un scroll animation, mientras bajamos se mueve la camioneta, o algo asi hasta llegar abajo....
+
+fin de la historia.. el resto sigue igual 
+
+creamo una nueva rama llamada - dayana-adaptacion 
+
+----------------------------------------------------------------
 PARA FUTUROS PROYECTOS
 1. Aprender usar figma para componentes y variantes para reutilizar diseños, verlo de manera modular, desde cada seccion de una pagina, testimonials, reviews, hero,
 footer, navbar, about us, contact us.
